@@ -8,7 +8,7 @@
     <li>simple GUI</li>
 </ul>
 <h2>Releases</h2>
-<a href="https://voidboost.github.io/hdrezka-releases/HDrezka.dmg">Download latest version</a>
+<a href="https://github.com/voidboost/geomac-swift/releases/latest/download/Geomac.dmg">Download latest version</a>
 <h2>Sponsor & Support</h2>
 <p>
     To keep this app maintained and up-to-date please consider sponsoring it on GitHub. Or if you are looking for a private support or help in customizing the experience, then reach out to me on Telegram

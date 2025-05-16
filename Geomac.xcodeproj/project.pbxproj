@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		DE616C542CEBA82900CA9BD1 /* SwiftyXMLParser in Frameworks */ = {isa = PBXBuildFile; productRef = DE616C532CEBA82900CA9BD1 /* SwiftyXMLParser */; };
 		DE72F4CC2DC227B7009F9DC8 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = DE72F4CB2DC227B7009F9DC8 /* Alamofire */; };
+		DEBA767A2DD79F4000157964 /* LicensesList in Frameworks */ = {isa = PBXBuildFile; productRef = DEBA76792DD79F4000157964 /* LicensesList */; };
 		DECD8E8D2CEB693800ACA1D5 /* SwiftProtobuf in Frameworks */ = {isa = PBXBuildFile; productRef = DECD8E8C2CEB693800ACA1D5 /* SwiftProtobuf */; };
 		DECD8E8F2CEB693800ACA1D5 /* SwiftProtobufPluginLibrary in Frameworks */ = {isa = PBXBuildFile; productRef = DECD8E8E2CEB693800ACA1D5 /* SwiftProtobufPluginLibrary */; };
 		DECD8E9D2CEB6C2C00ACA1D5 /* Gzip in Frameworks */ = {isa = PBXBuildFile; productRef = DECD8E9C2CEB6C2C00ACA1D5 /* Gzip */; };
@@ -16,7 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		DECD8E772CEB68A100ACA1D5 /* Geomac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Geomac.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEBA76742DD79E6400157964 /* LicensesList */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = LicensesList; sourceTree = "<group>"; };
+		DEBA767B2DD79F7500157964 /* Geomac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = Geomac.app; path = "/Users/yura/Documents/geomac-swift/build/Debug/Geomac.app"; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -38,6 +40,7 @@
 				DE72F4CC2DC227B7009F9DC8 /* Alamofire in Frameworks */,
 				DECD8E9D2CEB6C2C00ACA1D5 /* Gzip in Frameworks */,
 				DE616C542CEBA82900CA9BD1 /* SwiftyXMLParser in Frameworks */,
+				DEBA767A2DD79F4000157964 /* LicensesList in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -48,16 +51,8 @@
 			isa = PBXGroup;
 			children = (
 				DECD8E792CEB68A100ACA1D5 /* Geomac */,
-				DECD8E782CEB68A100ACA1D5 /* Products */,
+				DEBA76742DD79E6400157964 /* LicensesList */,
 			);
-			sourceTree = "<group>";
-		};
-		DECD8E782CEB68A100ACA1D5 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				DECD8E772CEB68A100ACA1D5 /* Geomac.app */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -86,9 +81,10 @@
 				DE616C532CEBA82900CA9BD1 /* SwiftyXMLParser */,
 				DED3CE242CEBD5760090FE33 /* Algorithms */,
 				DE72F4CB2DC227B7009F9DC8 /* Alamofire */,
+				DEBA76792DD79F4000157964 /* LicensesList */,
 			);
 			productName = Geomac;
-			productReference = DECD8E772CEB68A100ACA1D5 /* Geomac.app */;
+			productReference = DEBA767B2DD79F7500157964 /* Geomac.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -99,7 +95,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1610;
-				LastUpgradeCheck = 1610;
+				LastUpgradeCheck = 1630;
 				TargetAttributes = {
 					DECD8E762CEB68A100ACA1D5 = {
 						CreatedOnToolsVersion = 16.1;
@@ -123,7 +119,7 @@
 				DE72F4CA2DC227B7009F9DC8 /* XCRemoteSwiftPackageReference "Alamofire" */,
 			);
 			preferredProjectObjectVersion = 77;
-			productRefGroup = DECD8E782CEB68A100ACA1D5 /* Products */;
+			productRefGroup = DECD8E6E2CEB68A100ACA1D5;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -187,6 +183,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
@@ -250,6 +247,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -282,6 +280,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_ASSET_PATHS = "";
 				DEVELOPMENT_TEAM = 68ZUK4XR7F;
 				ENABLE_PREVIEWS = YES;
@@ -310,6 +309,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_ASSET_PATHS = "";
 				ENABLE_PREVIEWS = YES;
 				GCC_OPTIMIZATION_LEVEL = fast;
@@ -409,6 +409,10 @@
 			isa = XCSwiftPackageProductDependency;
 			package = DE72F4CA2DC227B7009F9DC8 /* XCRemoteSwiftPackageReference "Alamofire" */;
 			productName = Alamofire;
+		};
+		DEBA76792DD79F4000157964 /* LicensesList */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = LicensesList;
 		};
 		DECD8E8C2CEB693800ACA1D5 /* SwiftProtobuf */ = {
 			isa = XCSwiftPackageProductDependency;

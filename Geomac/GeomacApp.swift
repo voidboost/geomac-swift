@@ -16,6 +16,8 @@ class AppDelegate: NSObject, NSApplicationDelegate, UNUserNotificationCenterDele
 struct GeomacApp: App {
     @NSApplicationDelegateAdaptor(AppDelegate.self) private var delegate
 
+    @Environment(\.openWindow) private var openWindow
+
     private let modelContainer: ModelContainer
 
     init() {
@@ -36,6 +38,25 @@ struct GeomacApp: App {
         .modelContainer(modelContainer)
         .windowResizability(.contentSize)
         .commands(content: removed)
+
+        WindowGroup("Licenses", id: "licenses") {
+            LicensesView()
+        }
+        .defaultPosition(.center)
+        .windowResizability(.contentSize)
+        .commands(content: customCommands)
+        .commands(content: removed)
+    }
+
+    @CommandsBuilder
+    func customCommands() -> some Commands {
+        CommandGroup(replacing: .appSettings) {
+            Button {
+                openWindow(id: "licenses")
+            } label: {
+                Text("Licenses")
+            }
+        }
     }
 
     @CommandsBuilder

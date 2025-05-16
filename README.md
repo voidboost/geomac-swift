@@ -7,6 +7,7 @@
     <li>accepts MAC addresses in various formats</li>
     <li>simple GUI</li>
 </ul>
+<p>And more!</p>
 <h2>Releases</h2>
 <a href="https://github.com/voidboost/geomac-swift/releases/latest/download/Geomac.dmg">Download latest version</a>
 <h2>Sponsor & Support</h2>

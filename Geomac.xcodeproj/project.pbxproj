@@ -1,0 +1,436 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DE616C542CEBA82900CA9BD1 /* SwiftyXMLParser in Frameworks */ = {isa = PBXBuildFile; productRef = DE616C532CEBA82900CA9BD1 /* SwiftyXMLParser */; };
+		DE72F4CC2DC227B7009F9DC8 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = DE72F4CB2DC227B7009F9DC8 /* Alamofire */; };
+		DECD8E8D2CEB693800ACA1D5 /* SwiftProtobuf in Frameworks */ = {isa = PBXBuildFile; productRef = DECD8E8C2CEB693800ACA1D5 /* SwiftProtobuf */; };
+		DECD8E8F2CEB693800ACA1D5 /* SwiftProtobufPluginLibrary in Frameworks */ = {isa = PBXBuildFile; productRef = DECD8E8E2CEB693800ACA1D5 /* SwiftProtobufPluginLibrary */; };
+		DECD8E9D2CEB6C2C00ACA1D5 /* Gzip in Frameworks */ = {isa = PBXBuildFile; productRef = DECD8E9C2CEB6C2C00ACA1D5 /* Gzip */; };
+		DED3CE252CEBD5760090FE33 /* Algorithms in Frameworks */ = {isa = PBXBuildFile; productRef = DED3CE242CEBD5760090FE33 /* Algorithms */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DECD8E772CEB68A100ACA1D5 /* Geomac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Geomac.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		DECD8E792CEB68A100ACA1D5 /* Geomac */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Geomac;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DECD8E742CEB68A100ACA1D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DED3CE252CEBD5760090FE33 /* Algorithms in Frameworks */,
+				DECD8E8F2CEB693800ACA1D5 /* SwiftProtobufPluginLibrary in Frameworks */,
+				DECD8E8D2CEB693800ACA1D5 /* SwiftProtobuf in Frameworks */,
+				DE72F4CC2DC227B7009F9DC8 /* Alamofire in Frameworks */,
+				DECD8E9D2CEB6C2C00ACA1D5 /* Gzip in Frameworks */,
+				DE616C542CEBA82900CA9BD1 /* SwiftyXMLParser in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DECD8E6E2CEB68A100ACA1D5 = {
+			isa = PBXGroup;
+			children = (
+				DECD8E792CEB68A100ACA1D5 /* Geomac */,
+				DECD8E782CEB68A100ACA1D5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DECD8E782CEB68A100ACA1D5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DECD8E772CEB68A100ACA1D5 /* Geomac.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DECD8E762CEB68A100ACA1D5 /* Geomac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DECD8E882CEB68A200ACA1D5 /* Build configuration list for PBXNativeTarget "Geomac" */;
+			buildPhases = (
+				DECD8E732CEB68A100ACA1D5 /* Sources */,
+				DECD8E742CEB68A100ACA1D5 /* Frameworks */,
+				DECD8E752CEB68A100ACA1D5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				DECD8E792CEB68A100ACA1D5 /* Geomac */,
+			);
+			name = Geomac;
+			packageProductDependencies = (
+				DECD8E8C2CEB693800ACA1D5 /* SwiftProtobuf */,
+				DECD8E8E2CEB693800ACA1D5 /* SwiftProtobufPluginLibrary */,
+				DECD8E9C2CEB6C2C00ACA1D5 /* Gzip */,
+				DE616C532CEBA82900CA9BD1 /* SwiftyXMLParser */,
+				DED3CE242CEBD5760090FE33 /* Algorithms */,
+				DE72F4CB2DC227B7009F9DC8 /* Alamofire */,
+			);
+			productName = Geomac;
+			productReference = DECD8E772CEB68A100ACA1D5 /* Geomac.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DECD8E6F2CEB68A100ACA1D5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1610;
+				LastUpgradeCheck = 1610;
+				TargetAttributes = {
+					DECD8E762CEB68A100ACA1D5 = {
+						CreatedOnToolsVersion = 16.1;
+					};
+				};
+			};
+			buildConfigurationList = DECD8E722CEB68A100ACA1D5 /* Build configuration list for PBXProject "Geomac" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DECD8E6E2CEB68A100ACA1D5;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				DECD8E8B2CEB693800ACA1D5 /* XCRemoteSwiftPackageReference "swift-protobuf" */,
+				DECD8E9B2CEB6C2C00ACA1D5 /* XCRemoteSwiftPackageReference "GzipSwift" */,
+				DE616C522CEBA82900CA9BD1 /* XCRemoteSwiftPackageReference "SwiftyXMLParser" */,
+				DED3CE232CEBD5760090FE33 /* XCRemoteSwiftPackageReference "swift-algorithms" */,
+				DE72F4CA2DC227B7009F9DC8 /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = DECD8E782CEB68A100ACA1D5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DECD8E762CEB68A100ACA1D5 /* Geomac */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DECD8E752CEB68A100ACA1D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DECD8E732CEB68A100ACA1D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		DECD8E862CEB68A200ACA1D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DECD8E872CEB68A200ACA1D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		DECD8E892CEB68A200ACA1D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_OPTIMIZATION = time;
+				CODE_SIGN_ENTITLEMENTS = Geomac/Geomac.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = 68ZUK4XR7F;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.silentsea.geomac;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		DECD8E8A2CEB68A200ACA1D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_OPTIMIZATION = time;
+				CODE_SIGN_ENTITLEMENTS = Geomac/Geomac.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				ENABLE_PREVIEWS = YES;
+				GCC_OPTIMIZATION_LEVEL = fast;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.silentsea.geomac;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DECD8E722CEB68A100ACA1D5 /* Build configuration list for PBXProject "Geomac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DECD8E862CEB68A200ACA1D5 /* Debug */,
+				DECD8E872CEB68A200ACA1D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DECD8E882CEB68A200ACA1D5 /* Build configuration list for PBXNativeTarget "Geomac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DECD8E892CEB68A200ACA1D5 /* Debug */,
+				DECD8E8A2CEB68A200ACA1D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		DE616C522CEBA82900CA9BD1 /* XCRemoteSwiftPackageReference "SwiftyXMLParser" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/yahoojapan/SwiftyXMLParser.git";
+			requirement = {
+				kind = versionRange;
+				maximumVersion = 999.0.0;
+				minimumVersion = 0.0.1;
+			};
+		};
+		DE72F4CA2DC227B7009F9DC8 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = versionRange;
+				maximumVersion = 999.0.0;
+				minimumVersion = 0.0.1;
+			};
+		};
+		DECD8E8B2CEB693800ACA1D5 /* XCRemoteSwiftPackageReference "swift-protobuf" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apple/swift-protobuf.git";
+			requirement = {
+				kind = versionRange;
+				maximumVersion = 999.0.0;
+				minimumVersion = 0.0.1;
+			};
+		};
+		DECD8E9B2CEB6C2C00ACA1D5 /* XCRemoteSwiftPackageReference "GzipSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/1024jp/GzipSwift.git";
+			requirement = {
+				kind = versionRange;
+				maximumVersion = 999.0.0;
+				minimumVersion = 0.0.1;
+			};
+		};
+		DED3CE232CEBD5760090FE33 /* XCRemoteSwiftPackageReference "swift-algorithms" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apple/swift-algorithms.git";
+			requirement = {
+				kind = versionRange;
+				maximumVersion = 999.0.0;
+				minimumVersion = 0.0.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		DE616C532CEBA82900CA9BD1 /* SwiftyXMLParser */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DE616C522CEBA82900CA9BD1 /* XCRemoteSwiftPackageReference "SwiftyXMLParser" */;
+			productName = SwiftyXMLParser;
+		};
+		DE72F4CB2DC227B7009F9DC8 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DE72F4CA2DC227B7009F9DC8 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		DECD8E8C2CEB693800ACA1D5 /* SwiftProtobuf */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DECD8E8B2CEB693800ACA1D5 /* XCRemoteSwiftPackageReference "swift-protobuf" */;
+			productName = SwiftProtobuf;
+		};
+		DECD8E8E2CEB693800ACA1D5 /* SwiftProtobufPluginLibrary */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DECD8E8B2CEB693800ACA1D5 /* XCRemoteSwiftPackageReference "swift-protobuf" */;
+			productName = SwiftProtobufPluginLibrary;
+		};
+		DECD8E9C2CEB6C2C00ACA1D5 /* Gzip */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DECD8E9B2CEB6C2C00ACA1D5 /* XCRemoteSwiftPackageReference "GzipSwift" */;
+			productName = Gzip;
+		};
+		DED3CE242CEBD5760090FE33 /* Algorithms */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DED3CE232CEBD5760090FE33 /* XCRemoteSwiftPackageReference "swift-algorithms" */;
+			productName = Algorithms;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = DECD8E6F2CEB68A100ACA1D5 /* Project object */;
+}
